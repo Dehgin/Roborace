@@ -17,3 +17,7 @@ void loop () {
   // functions constantly during race
   
 }
+
+void lineSensor () {
+  // Insert function to call to in the loop
+}
