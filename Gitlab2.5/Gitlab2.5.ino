@@ -11,3 +11,9 @@ Jaime edit 2
 Dillon edit 2 
 
 }
+
+void loop () {
+  // this will be for code so the arduino goes through its
+  // functions constantly during race
+  
+}
