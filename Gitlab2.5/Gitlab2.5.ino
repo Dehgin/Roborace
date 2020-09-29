@@ -2,7 +2,7 @@ Carson edit 1
 void setup () {
   
 
-printf("Hello World"); // Alen edit 1
+Serial.println("Hello World"); // Alen edit 1
 Carson edit 2
 int a = 180; // Alen edit 2
 Jaime edit 1 
@@ -22,4 +22,16 @@ void loop () {
 
 void lineSensor () {
   // Insert function to call to in the loop
+}
+
+void wallSensor () {
+  
+}
+
+void motor () {
+  
+}
+
+void turning () {
+  
 }
