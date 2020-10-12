@@ -18,7 +18,7 @@ void setup() {
   digitalWrite(9,LOW);
 
   Myservo.attach(11);
-  Myservo.write(10);
+  Myservo.write(90);
 
 }
 
@@ -29,19 +29,19 @@ void loop() {
   digitalWrite(7,HIGH);//7 and 8 might need to be reversed
   digitalWrite(8,LOW);
 
-  cm = Distance();
+ cm = Distance();
 
   if (cm < 17){
-    Myservo.write(90);
+    Myservo.write(115);
 
 }
 if (cm > 23){
-  Myservo.write(-10);
+  Myservo.write(65);
 }
-else {
-  void straight();
-  Myservo.write(10);
+if (cm<23 && cm>17) {
+  Myservo.write(90);
 }
+
 }
 
 
@@ -73,6 +73,3 @@ float Distance(){
 }
 return cm;
 }
-
-
-  
